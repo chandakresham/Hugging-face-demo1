@@ -17,7 +17,7 @@ jobs:
       env:
         HF: ${{ secrets.HF }}
       run: |
-        git remote add origin1 https://resham2001:$HF@huggingface.co/spaces/resham2001/demo1
+        git remote add origin1 https://resham2001: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@huggingface.co/spaces/resham2001/demo1
 
     - name: Push to hub
       run: |
