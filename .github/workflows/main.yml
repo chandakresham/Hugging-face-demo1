@@ -15,7 +15,7 @@ jobs:
         fetch-depth: 0
     - name: Add remote
       env:
-        HF: ${{ secrets.HG }}
+        HF: ${{ secrets.HF }}
       run: |
         git remote add origin1 https://resham2001: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@huggingface.co/spaces/resham2001/demo1
 
